@@ -1,0 +1,280 @@
+<head>
+    <style>
+  
+    .menu 
+    {
+        position: absolute;
+        width: 100%;
+        background: rgb(255,255,255);
+        padding: 0 100px;
+        box-sizing: border-box;
+    }
+    nav
+    {
+        position: relative;
+        float: right;
+    }
+     nav ul
+    {
+        margin: 0;
+        padding:0;
+        display: flex;
+        list-style: none;
+    }
+     nav ul li a
+    {
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 33px 20px;
+        text-decoration: none;
+        color: #ab1232;
+    }
+     nav ul li ul
+    {
+        display: block;
+        background: rgba(255,255,255,.5);
+        min-width: 250px;
+        position: absolute;
+        margin-top: 1px;
+        box-shadow: 0 2px 5px rgba(0,0,0,.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+        transform: translateY(40px);
+    }
+     nav ul li:hover ul
+    {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+    
+    }
+     nav ul li ul li a
+    {
+        padding: 10px;
+        color: #ab1232;
+    }
+    nav ul li ul li a:hover
+    {
+        background-color: skyblue;
+    }
+    a
+    {
+        margin: 10px;
+        padding: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ab1232;
+    }
+    
+    </style>
+    </head>
+ 
+        <header>
+        <div class="menu">
+              
+            <nav href="help">
+                <ul>
+                  
+                    <li><a href="#">Help</a>
+                        <ul>
+                            <li><a href="#" target="image">FAQ</a></li>
+                            <li><a href="#">ContactUs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+<head>
+    <style>
+    .list-type4{
+    width:1400px;
+    background: #f0f0f0;
+    padding: 20px;
+    }
+    .list-type4 ol{
+    counter-reset: li;
+    width:1300px;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 80px;
+    margin-bottom: 4em;
+    }
+    .list-type4  li a{
+    position: relative;
+    display: block;
+    height: 50px;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: white;
+    color: red;
+    text-decoration: none;
+    -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 1s;
+    }
+    
+    .list-type4 a:hover{
+    background: skyblue;
+    }
+    #tt1
+    {
+        padding-left: 80px;
+    }
+    .con
+            {
+                height:1000px;
+                background-color: white;
+                display:flex;
+            }
+    .cl
+            {
+                height: 300px;
+                width: 300px;
+                background-color: white;
+                border: 2px solid red;
+                margin: 20px;
+                font-size: 30px;
+            }
+    </style>
+    </head>
+  
+        <div class="container">
+       <br /> <br /><br /><br /><br /><br />
+        <h1 id="tt1">Voizfonica Product & Services FAQs</h1><br />
+        <div class="list-type4">
+        <ol>
+        <li><a href="#a">How to contact customer care</a></li>
+        <div id="a">
+            
+            <pre>Please contact customer support executive: <strong style="color:darkblue ">1800 266 4332</strong></pre>
+            </div>
+        <li><a href="#b">How to I update profile details</a></li>
+        <div id="b">
+            
+            <pre>Go to dashboard settings->click Edit Account->submit proof</pre>
+            </div>
+        
+
+        <li><a href="#c">How to get a payment receipt for my payment?</a></li>
+        <div id="c">
+            
+            <pre>Go to billing section for payment receipt for your service</pre>
+            </div>
+        <li><a href="#d">How to deactivate my account?</a></li>
+        <div id="d">
+            
+            <pre>Please contact customer support executive: <strong style="color:darkblue ">1800 266 4332</strong></pre>
+        </div>
+        <li><a href="#e">I want to migrate from postpaid to prepaid</a></li>
+        <div id="e">
+            
+            <pre>Visit <strong>Voizfonica store</strong> near you, And Submit the copies of documents</pre>
+        </div>
+        <li><a href="#f">I want to activate hello tunes</a></li>
+        <div id="f">
+            
+            <pre>Please contact customer support executive: <strong style="color:darkblue ">1800 266 4332</strong></pre>
+        </div>
+        
+        <li><a href="#g">I am unable to use Internet</a></li>
+        <div id="g">
+            
+           
+        <p>All you need to do is:</p>
+                <ol>
+                    <li>Check your balance usage</li>
+                    <li>Check the validity of service</li>
+                    <li>Check the limitation of internet per day</li>
+                
+                </ol>
+               
+        </div>
+        <li><a href="#h">I'm unable to send or receive sms</a></li>
+        <div id="h">
+            
+           
+            <p>All you need to do is:</p>
+            <ol>
+            <li>Check your balance usage</li>
+            <li>Check the validity of service</li>
+            <li>Check the limitation of message per day</li>
+            
+            </ol>
+                   
+            </div>
+        <li><a href="#i">I'm unable to make or receive calls</a></li>
+        <div id="i">
+            
+           
+            <p>All you need to do is:</p>
+            <ol>
+            <li>Check your balance usage</li>
+            <li>Check the validity of service</li>
+            <li>Check the limitation of call per day</li>
+            
+            </ol>
+            <br />
+                   
+            </div>
+
+        <li><a href="#j">How to view my current plan bill</a></li>
+        <div id="j">
+            
+            <pre>Go to billing section->Click View Bill</pre>
+
+        </div>
+
+        <li><a href="k">Can I block my SIM if my mobile is lost?</a></li>
+        <div id="k">
+            
+            <p>Several Payment option are available:</p>
+            <ol>
+                <li>Debit Card/Cwhiteit card</li>
+                <li>UPI</li>
+                <li>Voizfonica Wallet</li>
+                
+                </ol>
+
+        </div>
+        <li><a href="#l">want to buy a dongle - what are the steps?</a></li>
+        <div id="k">
+        <pre>Yes, Reach your nearest <strong>Voizfonica</strong> store and Submit the copies of documents and the executive will solve</pre>
+        </div>
+    </ol>
+        </div>
+    
+        <div class="con" >
+                <div class="cl" id="b1">
+                    <img class="card-img-top" width="150px" height="100px" src="../../assets/mail.jpg" alt="Card image cap">
+                    
+                        <h5 style="text-align: center;">Mail </h5>
+                        <p class="card-text" style="color: red;">We are just a email away. Reach us at:<b style="color: black;" routerLink="/contact">wecare@voizfonica.com</b></p>
+                    
+                </div>
+                <div class="cl" id="b1">
+                    <img class="card-img-top" width="150px" height="100px" src="../../assets/phone.jpg" alt="Card image cap">
+                    
+                    <h5 style="text-align: center;">phone </h5>
+                    <p class="card-text" style="color: red;">We are just a call away.<br>Reach us at: <b style="color: black;">1800 4500 1244</b> </p>
+                
+                </div>
+                <div class="cl" id="b1">
+                    <img class="card-img-top" width="150px" height="100px" src="../../assets/sms.jpg" alt="Card image cap">
+                    
+                    <h5 style="text-align: center;">Sms </h5>
+                    <p class="card-text" style="color: red;">Let our friendly staff help you. We are always availaible 24x7.We are here to help you <b style="color: black;">1800 4500 1243</b></p>
+                
+                </div>
+                
+        </div>
+       
+       
+   
+   
+   
